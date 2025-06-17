@@ -219,7 +219,7 @@ function showOrderModal() {
   modal.innerHTML = `
     <div class="order-modal">
       <div class="order-header">
-        <img src="./assets/icons/state-add-default.svg" alt="confirmed" width="48" height="48" />
+        <img src="./assets/icons/carbon_checkmark-outline.svg" alt="confirmed" width="48" height="48" />
         <h2>Order Confirmed</h2>
         <p>We hope you enjoy your food!</p>
       </div>
