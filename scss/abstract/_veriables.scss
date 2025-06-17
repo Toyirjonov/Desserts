@@ -1,0 +1,68 @@
+/* Colors */
+$red: #c73b0f;
+$green: #1ea575;
+$black: #000000;
+$white: #ffffff;
+
+/* Colors Rose family */
+$rose-50: #fcf8f6;
+$rose-100: #f5eeec;
+$rose-300: #caafa7;
+$rose-400: #ad8a85;
+$rose-500: #87635a;
+$rose-900: #260f08;
+
+/* Font family Red Hat Text Bold */
+$font-main: "Red Hat Text", sans-serif;
+
+/* Typography */
+
+// Red Hat Text Bold
+$text-present-1: (
+  font-weight: 700,
+  font-size: 56px,
+  line-height: 120%,
+  letter-spacing: 0px,
+);
+
+// Red Hat Text Bold
+$text-present-2: (
+  font-weight: 700,
+  font-size: 24px,
+  line-height: 125%,
+  letter-spacing: 0px,
+);
+
+// Red Hat Text Semi Bold
+$text-present-3: (
+  font-weight: 600,
+  font-size: 16px,
+  line-height: 150px,
+  letter-spacing: 0px,
+);
+
+// Red Hat Text Regular
+$text-present-4: (
+  font-weight: 400,
+  font-size: 14px,
+  line-height: 150%,
+  letter-spacing: 0px,
+);
+
+// Red Hat Text Semi Bold
+$text-present-4-bold: (
+  font-weight: 700,
+  font-size: 16px,
+  line-height: 150%,
+  letter-spacing: 0px,
+);
+
+// Spasing
+$sp-50: 4px;
+$sp-100: 8px;
+$sp-150: 12px;
+$sp-200: 16px;
+$sp-300: 24px;
+$sp-400: 32px;
+$sp-500: 40px;
+$sp-1100: 88px;

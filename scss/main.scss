@@ -1,10 +1,10 @@
-@import "./vendors/normalize.scss";
+@import "./vendors/normalize";
 @import "./abstract/veriables";
 @import "./abstract/functions";
 @import "./abstract/mixins";
 @import "./base/typography";
 @import "./base/resets";
-@import "./components/buttons.scss";
+@import "./components/buttons";
 @import "./layouts/footer";
 @import "./layouts/header";
 @import "./pages/home";

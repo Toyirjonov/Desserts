@@ -3,12 +3,64 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Template</title>
+    <title>Desserts</title>
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="header"></header>
-    <main class="main"></main>
+    <main class="main">
+      <div class="container">
+        <section class="card">
+          <div class="menu-left">
+            <h1 class="menu-left-title">Desserts</h1>
+            <ul class="products-list" id="products-list">
+              <template>
+                <li class="product-item">
+                  <div class="product-top">
+                    <img
+                      class="product-image"
+                      src="./assets/images/waffle-with-berries.jpg"
+                      alt=""
+                      width="250"
+                      height="240"
+                    />
+                    <button class="add-to-cart-btn">
+                      <img
+                        src="./assets/icons/add-to-cart.svg"
+                        alt="add to cart icon"
+                        width="20"
+                        height="20"
+                      />
+                      <p class="btn-title">Add to Cart</p>
+                    </button>
+                  </div>
+                  <div class="product-bottom">
+                    <p class="product-type">Waffle</p>
+                    <p class="product-name">Waffle with Berries</p>
+                    <p class="product-price">$6.50</p>
+                  </div>
+                </li>
+              </template>
+            </ul>
+          </div>
+          <div class="menu-right">
+            <h2 class="menu-right-title">Your Cart (0)</h2>
+            <img
+              class="menu-right-image"
+              src="./assets/icons/empty-illustration.svg"
+              alt=""
+              width="128"
+              height="128"
+            />
+            <p class="menu-right-description">
+              Your added items will appear here
+            </p>
+          </div>
+        </section>
+      </div>
+    </main>
+
     <footer class="footer"></footer>
+    <script type="module" src="./assets/js/script.js"></script>
   </body>
 </html>

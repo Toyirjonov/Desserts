@@ -28,11 +28,12 @@ img {
 }
 
 body {
+  font-family: $font-main;
   display: flex;
   flex-direction: column;
   height: 100%;
+  background-color: $rose-50;
 }
-
 main {
   flex-grow: 1;
 }
@@ -43,7 +44,7 @@ h1 {
 
 .container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1340px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 30px;
